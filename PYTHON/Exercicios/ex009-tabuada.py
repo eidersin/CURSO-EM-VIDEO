@@ -1,3 +1,7 @@
+
+# Exercício 9 – Tabuada
+
+print('====== Exercício 9 – Tabuada')
 num = eval(input('Digite um número para ver sua tabuada: '))
 print('A tabuada de soma do {} é'.format(num))
 for c in range(1, 11):

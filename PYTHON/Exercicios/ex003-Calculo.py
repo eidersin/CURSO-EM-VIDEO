@@ -1,3 +1,7 @@
+
+# Exercício 3 – Somando dois números
+
+print('====== Exercício 3 – Somando dois números')
 valor1 = eval(input('Digite o primeiro valor: '))
 valor2 = eval(input('Digite o segundo valor: '))
 soma = valor1 + valor2

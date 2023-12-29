@@ -1,3 +1,7 @@
+
+# Exercício 16 – Quebrando um número
+
+print('====== Exercício 16 – Quebrando um número')
 '''from math import trunc
 num = float(input('Digite um valor: '))
 

@@ -1,3 +1,7 @@
+
+# Exercício 17 – Catetos e Hipotenusa
+
+print('====== Exercício 17 – Catetos e Hipotenusa')
 from math import hypot
 
 co = float(input('Entre com o valor do cateto oposto: '))
