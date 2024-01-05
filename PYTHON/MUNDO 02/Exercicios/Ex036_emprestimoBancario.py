@@ -1,4 +1,4 @@
-# Mundo 02: Exercício 37
+# Mundo 02: Exercício 36
 """
 Escreva um programa para aprovar o empréstimo bancário para a compra de uma casa. O programa vai perguntar o valor da
 casa, o salário do comprador e em quantos anos ele vai pagar.
