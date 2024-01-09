@@ -1,13 +1,22 @@
-# Mundo 02: Exercício 52
+# Mundo 02: Exercício 53
 """
 Faça um programa que leia um número inteiro e diga se ele é ou não um número primo
-
-numero primo é
 """
+num = eval(input('Digite um número: '))
+total = 0
+for c in range(1, num + 1):
+    if num % c == 0:
+        total += 1
+print('O número {} foi divisivel {} vezes'.format(num, total))
+if total == 2:
+    print('Então o número é PRIMO')
+else:
+    print('Então o número NÃO é PRIMO')
 
 
-# CALCULO PRIMO
-# CALCULO PRIMO
+
+""" 
+# CALCULO PRIMO (Chat GPT)
 def eh_primo(n):
     if n < 2:
         return False
@@ -27,3 +36,4 @@ numero = eval(input('Digite um numero: '))
 resultado = eh_primo(numero)
 msg = imprimir_resultado(numero, resultado)
 print(msg)
+"""
