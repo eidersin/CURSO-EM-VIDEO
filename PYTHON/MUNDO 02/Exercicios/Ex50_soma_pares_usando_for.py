@@ -1,4 +1,4 @@
-# Mundo 02: Exercício 49
+# Mundo 02: Exercício 50
 """
 Desenvolva um programa que leia seis número inteiro e mostre a soma apenas daqueles que forem pares.
 Se o valor digitador for impar, desconsidere-o.
