@@ -4,8 +4,8 @@ Desenvolva um programa que leia o primeiro termo e a razão de uma PA. No final,
 progressão.
 """
 soma = 0
-i = int(input('Digite um valor inicial: '))
-r = int(input('Digite um valor para razão: '))
-f = i + r * 10
-for c in range(i, f, r):
-    print((c), end= ' ')
+primeiro = int(input('Digite um valor inicial: '))
+razao = int(input('Digite um valor para razão: '))
+decimo = primeiro + (10 - 1) * razao
+for c in range(primeiro, decimo + razao, razao):
+    print((c), end=' ')
