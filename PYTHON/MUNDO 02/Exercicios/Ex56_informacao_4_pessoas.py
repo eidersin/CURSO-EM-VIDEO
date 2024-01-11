@@ -1,4 +1,4 @@
-# Mundo 02: Exercício 55
+# Mundo 02: Exercício 56
 """
 Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa, mostre:
 
