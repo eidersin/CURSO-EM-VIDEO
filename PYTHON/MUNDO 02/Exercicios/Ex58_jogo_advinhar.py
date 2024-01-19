@@ -15,13 +15,16 @@ numero_jogadas = 1
 while jogador != computador:
     print('PROCESSANDO...')
     sleep(1)
-    print('VOCÊ PERDEU!!! Tente novamente.')
+    if jogador < computador:
+        print('VOCÊ PERDEU!!! Mais... Tente novamente.')
+    else:
+        print('VOCÊ PERDEU!!! Menos... Tente novamente.')
     jogador = int(input('Em que número eu pensei? '))
     numero_jogadas += 1
 print('PROCESSANDO...')
 sleep(1)
 print('-=-' * 20)
-print('PARABÉNS! Você conseguiu me vencer!')
-print('Eu pensei no número: {}'.format(computador))
-print('Você precisou de {} tentativas para acertar!'.format(numero_jogadas))
+print(' Você conseguiu me vencer!')
+print(f' PARABÉNS! Eu pensei no número: {computador} e você precisou de {numero_jogadas} tentativas para acertar')
 print('-=-' * 20)
+print('FIM DO PROGRAMA')
