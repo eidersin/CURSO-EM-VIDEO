@@ -6,8 +6,8 @@ Escreva um programa que leia um número n inteiro e mostre na tela os n primeiro
 
 num = int(input('Digite um número de termos para sequência de Fibonacci: '))
 a, b = 0, 1
-cont = 0
-while cont < num:
+contador = 0
+while contador < num:
     print(a, end=' ')
     a, b = b, a + b
-    cont += 1
+    contador += 1

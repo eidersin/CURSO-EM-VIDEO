@@ -5,7 +5,6 @@ Crie um programa que leia vários números inteiros pelo teclado. O programa só
 (desconsiderando o flag)
 """
 
-num = 0
 soma = 0
 num_digitados = 0
 print('Digite 999 para parar')

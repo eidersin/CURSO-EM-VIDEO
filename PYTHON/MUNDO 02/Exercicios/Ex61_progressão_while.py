@@ -6,12 +6,10 @@ progressão.
 
 primeiro = int(input('Digite um valor inicial: '))
 razao = int(input('Digite um valor para razão: '))
-soma = 1
-termos = []
-while soma <= 10:
-    termo_atual = primeiro + (soma - 1) * razao
-    termos.append(termo_atual)
-    soma += 1
-print("Os 10 primeiros termos da PA são:")
-for termo in termos:
-    print(termo, end=' ')
+cont = 1
+termos = primeiro
+while cont <= 10:
+    print(termos, end=' ')
+    termos += razao
+    cont += 1
+print('FIM')
