@@ -13,8 +13,7 @@ menor_preco = float('inf')
 print(40*'-')
 print('{:^40}'.format('LOJA SUPER BARATÃO'))
 print(40*'-')
-continuar = 'S'
-while continuar == 'S':
+while True:
     nome = str(input('Nome do Produto: '))
     preco = float(input('Preço: R$'))
     if preco >= 1000:
@@ -23,11 +22,13 @@ while continuar == 'S':
         menor = nome
         menor_preco = preco
     soma += preco
-    continuar = str(input('Quer continuar? [S/N] ')).upper().strip()
+    continuar = ' '
     while continuar not in 'SN':
         continuar = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
+    if continuar == 'N':
+        break
 print('{:-^40}'.format(' FIM DO PROGRAMA '))
-print(f'O total da compro foi de R${soma:.2f}')
+print(f'O total da compra foi de R${soma:.2f}')
 print(f'Temos {maior} produtos custando mais de R$1000.00')
 print(f'O produto mais barato foi {menor} e custa R${menor_preco:.2f}')
 
